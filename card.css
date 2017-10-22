@@ -1,0 +1,121 @@
+.main-template {
+	background-color: #eee
+}
+
+.header {
+	background-color: white;
+	border-bottom: 1px solid #ccc;
+}
+
+.main-template__section1 {
+	color: #555;
+	display: inline-block;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.main-template__header {
+	display: inline-block;
+	width: auto;
+}
+
+.main-template__header-img {
+	margin-left: 15px;
+	width: 29px;
+}
+
+.main-template__section2 {
+	color: #555;
+	display: inline-block;
+	border-right: 1px solid #ccc;
+}
+
+.main-template__section3 {
+	color: #555;
+	display: inline-block;
+	border-left: 1px solid #ccc;
+}
+
+.custom-dropdown {
+  border: 1px solid #111;
+  width: 150px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(./assets/arrow-down.png) 96% / 15% no-repeat #eee;
+}
+
+.info {
+	margin-top: 20px;
+}
+
+.hired-info {
+	background-color: white;
+	display: inline-block;
+}
+
+.info__main-lables {
+	display: inline-block;
+	color: #999;
+	padding-left: 20px;
+}
+
+.info__main-lable {
+	padding-right: 35px;
+}
+
+.info__main {
+	display: inline-block;
+	padding-left: 106px;
+}
+
+.info__main-value {
+	color: #555;
+	padding-right: 13px;
+}
+
+.card-info {
+	background-color: white;
+	margin-top: 13px;
+}
+
+.card-info__img {
+	width: 200px;
+	float: left;
+}
+
+.card-info__block {
+	padding-top: 24px;
+}
+
+.card-activities {
+	background-color: white;
+}
+
+.card-activities__menu {
+	border-bottom: 1px solid #ccc;
+	display: inline-block;
+}
+
+.card-activities__menu-item {
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.card-activities__menu-item:hover {
+	text-decoration: none;
+	border-bottom: 2px solid red;
+}
+
+.card-activities__display {
+	height: 283px;
+	overflow-y: scroll;
+}
+
+.card-activities__menu-item-icon {
+	width: 8px;
+}

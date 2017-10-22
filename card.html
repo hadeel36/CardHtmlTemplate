@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Card Templte swipe</title>
+
+	<meta charset="utf-8">
+	<!-- To anhance responsive page -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Style sheet link -->
+	<link rel="stylesheet" type="text/css" href="card.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body class="main-template">
+	<div class="container">
+		<div class="row header">
+			<div class="col-md-3 main-template__section1">
+				<h4 class="panel-heading main-template__header">Annonate</h4> <br />
+				<div class="main-template__header">
+					<img class="main-template__header-img" src="./assets/dontKnow.png" />
+					<img class="main-template__header-img" src="./assets/write.png" />
+					<img class="main-template__header-img" src="./assets/attchment.png" />
+					<img class="main-template__header-img" src="./assets/menu.png" />
+				</div>
+			</div>
+			<div class="col-md-2 main-template__section2">
+				<h4 class="panel-heading main-template__header">Manage</h4> <br />
+				<div class="main-template__header">
+					<img class="main-template__header-img" src="./assets/copy2.png" />
+					<img class="main-template__header-img" src="./assets/open.png" />
+				</div>
+			</div>
+			<div class="col-md-4"></div>
+			<div class="col-md-3 main-template__section3">
+				<h4 class="panel-heading main-template__header">Set Hiring Stage</h4> <br />
+				<select class="custom-dropdown">
+				  <option value="volvo">short-list</option>
+				  <option value="saab">out-of-comption</option>
+				  <option value="mercedes">long-term-list</option>
+				</select>
+			</div>
+		</div>
+		<div class="row info">
+			<div class="col-md-6">
+				<div>
+					<div class="hired-info">
+						<img class="main-template__header-img" src="./assets/hired.png">
+						<label>Hired</label>
+						<div class="info__main-lables">
+							<span class="info__main-lable">Divison</span>
+							<span class="info__main-lable">Resporting to</span>
+							<span class="info__main-lable">Joining Date</span>
+							<span class="info__main-lable">Offered Salary</span>
+						</div>
+						<div class="info__main">
+							<span class="info__main-value">Technology</span>
+							<span class="info__main-value">Yousif Swalheh</span>
+							<span class="info__main-value">25/9/2014</span>
+							<span class="info__main-value">750 JD</span>
+						</div>
+						<img class="main-template__header-img" src="./assets/edit.png">
+					</div>
+				</div>
+				<div class="card-info">
+					<img class="card-info__img" src="./assets/avatar.png">
+					<div class="card-info__block">
+						<h4>Yasmeen <a href="#">(Reveal Full Name)</a></h4>
+						<label>Graphic Designer</label>
+						<label>Infoart printing & adversting</label> <br />
+						<label>Location:</label> <span>Amman, Jordan</span>  <br />
+						<label>Education:</label> <span>Master's Degree, Graphic Design</span>  <br />
+						<label>Experience:</label> <span>4 Years, 6 Months</span>
+					</div>
+					<button class=" btn btn-info"></button>
+				</div>
+			</div>
+			<div class="col-md-6 card-activities">
+				<h3>Activities on CV</h3>
+				<div class="card-activities__menu">
+					<a class="card-activities__menu-item" href="#">All</a>
+					<a class="card-activities__menu-item" href="#">Messages (2)</a>
+					<a class="card-activities__menu-item" href="#">Notes (6)</a>
+					<a class="card-activities__menu-item" href="#">Tags (2)</a>
+					<a class="card-activities__menu-item" href="#">Attachement (1)</a>
+					<a class="card-activities__menu-item" href="#">More</a><img class="card-activities__menu-item-icon" src="./assets/arrow-down.png">
+				</div>
+				<div class="card-activities__display"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
