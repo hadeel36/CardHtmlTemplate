@@ -58,24 +58,30 @@
 	display: inline-block;
 }
 
+.edit-icon {
+	float: right;
+	margin-top: -27px;
+	margin-right: 20px;
+}
+
 .info__main-lables {
 	display: inline-block;
 	color: #999;
-	padding-left: 20px;
 }
 
 .info__main-lable {
-	padding-right: 35px;
+	padding-left: 20px;
 }
 
 .info__main {
 	display: inline-block;
-	padding-left: 106px;
+	padding-left: 100px;
 }
 
 .info__main-value {
 	color: #555;
-	padding-right: 13px;
+	padding-right: 15px;
+	padding-right: 15px;
 }
 
 .card-info {
@@ -84,12 +90,12 @@
 }
 
 .card-info__img {
-	width: 200px;
+	width: 240px;
 	float: left;
 }
 
 .card-info__block {
-	padding-top: 24px;
+	padding-top: 33px;
 }
 
 .card-activities {
@@ -118,4 +124,22 @@
 
 .card-activities__menu-item-icon {
 	width: 8px;
+}
+
+.card-info__img-back {
+	float: right;
+}
+
+.card-info__block-back {
+	padding-left: 10px;
+}
+
+.btn-flip-back {
+	margin-left: 10px;
+}
+
+.btn-flip {
+	margin-bottom: 10px;
+	margin-top: 5px;
+	background-color: orange;
 }

@@ -65,20 +65,22 @@
 							<span class="info__main-value">25/9/2014</span>
 							<span class="info__main-value">750 JD</span>
 						</div>
-						<img class="main-template__header-img" src="./assets/edit.png">
+						<img class="main-template__header-img edit-icon" src="./assets/edit.png">
 					</div>
 				</div>
-				<div class="card-info">
-					<img class="card-info__img" src="./assets/avatar.png">
-					<div class="card-info__block">
-						<h4>Yasmeen <a href="#">(Reveal Full Name)</a></h4>
-						<label>Graphic Designer</label>
-						<label>Infoart printing & adversting</label> <br />
-						<label>Location:</label> <span>Amman, Jordan</span>  <br />
-						<label>Education:</label> <span>Master's Degree, Graphic Design</span>  <br />
-						<label>Experience:</label> <span>4 Years, 6 Months</span>
+				<div class="card">
+					<div class="card-info">
+						<img class="card-info__img" src="./assets/avatar.png">
+						<div class="card-info__block">
+							<h4>Yasmeen <a href="#">(Reveal Full Name)</a></h4>
+							<label>Graphic Designer</label>
+							<label>Infoart printing & adversting</label> <br />
+							<label>Location:</label> <span>Amman, Jordan</span>  <br />
+							<label>Education:</label> <span>Master's Degree, Graphic Design</span>  <br />
+							<label>Experience:</label> <span>4 Years, 6 Months</span>
+						</div>
+						<button onclick="flip()" class=" btn btn-flip">Contact</button>
 					</div>
-					<button class=" btn btn-info"></button>
 				</div>
 			</div>
 			<div class="col-md-6 card-activities">
@@ -95,5 +97,12 @@
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript">
+		function flip() {
+		    $('.card-info__img').toggleClass('card-info__img-back')
+		    $('.card-info__block').toggleClass('card-info__block-back');
+		    $('.btn-flip').toggleClass('btn-flip-back');
+		}
+	</script>
 </body>
 </html>
