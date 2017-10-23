@@ -1,3 +1,3 @@
 # CardHtmlTemplate
 
-[[./assets/card-screenShot.png]]
+![Screenshot](./assets/card-screenShot.png)
