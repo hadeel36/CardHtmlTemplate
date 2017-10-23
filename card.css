@@ -95,6 +95,7 @@
 }
 
 .card-info__block {
+	height: 300px;
 	padding-top: 33px;
 }
 
@@ -134,12 +135,14 @@
 	padding-left: 10px;
 }
 
-.btn-flip-back {
-	margin-left: 10px;
+.btn-flip {
+	position: absolute;
+	left: 249px;
+	bottom: 23px;
+	background-color: orange;
 }
 
-.btn-flip {
-	margin-bottom: 10px;
-	margin-top: 5px;
-	background-color: orange;
+.btn-flip-back {
+	margin-left: 10px;
+	left: 17px;
 }
